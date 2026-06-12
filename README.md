@@ -105,7 +105,7 @@ Deploy to cloud platforms that natively support running Node.js full-stack serve
     4. Define your `GEMINI_API_KEY` (and optional Supabase variables) under the platform's Environment Settings.
     5. The engine will build the frontend, bundle the Node.js server, launch on a standard port, and render everything perfectly.
 
-#### Option B: Split Frontend (Netlify/Vercel) + Backend (Node Host)
+#### Option B: Split Frontend (Netlify/Vercel) + Backend (Node Host) (use render)
 If you are determined to keep using Netlify for the frontend client, you must host the underlying API database elsewhere:
 1.  **Backend Host**: Deploy the Express server (`server.ts`) code independently to **Render**, **Railway**, or **Fly.io**.
 2.  **Configure API URL**: Update the `/src/` paths in your frontend code so that fetch requests point directly to your deployed Node API URL (e.g. `https://your-api.onrender.com/api/urls` instead of `/api/urls`).
