@@ -1,5 +1,5 @@
 # AI URL Shortener & Analytics Platform
-
+# Deployment Link : https://url-gateway.onrender.com/
 A high-performance, feature-packed full-stack **AI URL Shortener** application. This platform goes beyond basic redirection, offering custom aliases, robust access controls (passwords, expiration), detailed client-side telemetry, dynamic analytics dashboards, and server-side intelligence driven by the Google Gemini API (including URL safety scanning, phishing detection, page summaries, and alias recommendations).
 
 ---
