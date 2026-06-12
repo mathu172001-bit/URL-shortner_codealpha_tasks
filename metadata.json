@@ -1,0 +1,6 @@
+{
+  "name": "AI URL Shortener & Analytics",
+  "description": "A feature-rich URL shortener platform with custom alias support, password protection, expiration, real-time device and geo-analytics, and AI-powered phishing detection, URL safety scoring, page summarization, and smart recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
